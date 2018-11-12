@@ -1,8 +1,5 @@
 package org.zigi.game.jgamebook;
 
-import java.util.HashSet;
-import java.util.Set;
-
 public class Skill {
 	public static final String MASKING_CODE = "masking";
 	public static final String HUNTING_CODE = "hunting";
@@ -15,24 +12,22 @@ public class Skill {
 	public static final String ANIMAL_AFFINITY_CODE = "animal-affinity";
 	public static final String TELEKINESIS_CODE = "telekinesis";
 
-	public static final Skill MASKING = getInitInstance(MASKING_CODE);
-	public static final Skill HUNTING = getInitInstance(HUNTING_CODE);
-	public static final Skill SIXTH_SENSE = getInitInstance(SIXTH_SENSE_CODE);
-	public static final Skill TRACKING = getInitInstance(TRACKING_CODE);
-	public static final Skill HEALING = getInitInstance(HEALING_CODE);
-	public static final Skill WEAPON_MASTERY = getInitInstance(WEAPON_MASTERY_CODE);
-	public static final Skill INTANGIBLE_SHUTTER = getInitInstance(INTANGIBLE_SHUTTER_CODE);
-	public static final Skill MENTAL_ATTACK = getInitInstance(MENTAL_ATTACK_CODE);
-	public static final Skill ANIMAL_AFFINITY = getInitInstance(ANIMAL_AFFINITY_CODE);
-	public static final Skill TELEKINESIS = getInitInstance(TELEKINESIS_CODE);
-
-	private static final Set<String> CODES = new HashSet<String>();
+	public static final Skill MASKING = getInstance(MASKING_CODE);
+	public static final Skill HUNTING = getInstance(HUNTING_CODE);
+	public static final Skill SIXTH_SENSE = getInstance(SIXTH_SENSE_CODE);
+	public static final Skill TRACKING = getInstance(TRACKING_CODE);
+	public static final Skill HEALING = getInstance(HEALING_CODE);
+	public static final Skill WEAPON_MASTERY = getInstance(WEAPON_MASTERY_CODE);
+	public static final Skill INTANGIBLE_SHUTTER = getInstance(INTANGIBLE_SHUTTER_CODE);
+	public static final Skill MENTAL_ATTACK = getInstance(MENTAL_ATTACK_CODE);
+	public static final Skill ANIMAL_AFFINITY = getInstance(ANIMAL_AFFINITY_CODE);
+	public static final Skill TELEKINESIS = getInstance(TELEKINESIS_CODE);
 
 	private String code;
 	private String name;
 	private String description;
 
-	private Skill() {
+	protected Skill() {
 
 	}
 
@@ -40,15 +35,7 @@ public class Skill {
 		this.code = code;
 	}
 
-	public static Skill getInitInstance(String code) {
-		if (!CODES.contains(code))
-			return new Skill(code);
-		return null;
-	}
-
-	public static Skill getInstance(String code) throws SkillAlreadyExist {
-		if (CODES.contains(code))
-			throw new SkillAlreadyExist(code);
+	public static Skill getInstance(String code) {
 		return new Skill(code);
 	}
 
