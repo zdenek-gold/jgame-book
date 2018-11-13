@@ -1,20 +1,23 @@
 package org.zigi.game.jgamebook;
 
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
+import org.zigi.game.jgamebook.exception.InvalidPlayerException;
+import org.zigi.game.jgamebook.story.Story;
 
 public class Game {
 	private Player player;
-	private Map<Integer, Chapter> chapters = new LinkedHashMap<Integer, Chapter>();
-	private boolean running = false;
+	private Story story;
 
-	public static Game getInstance(Player player) {
-		return new Game(player);
+	private Boolean gameOver;
+
+	public static Game getInstance(Player player, Story story) throws InvalidPlayerException {
+		if (player.isValid() == false)
+			throw new InvalidPlayerException(player);
+		return new Game(player, story);
 	}
 
-	private Game(Player player) {
+	private Game(Player player, Story story) {
 		this.player = player;
+		this.story = story;
 	}
 
 	public Player getPlayer() {
@@ -25,27 +28,24 @@ public class Game {
 		this.player = player;
 	}
 
-	public Map<Integer, Chapter> getChapters() {
-		return chapters;
-	}
-
-	public void addChapters(List<Chapter> chapters) {
-		for (Chapter ch : chapters)
-			this.chapters.put(ch.getNumber(), ch);
-	}
-
 	public boolean isValid() {
-		return false;
+		if (isGameOver() != null)
+			return false;
+		if (story == null || story.isValid() == false)
+			return false;
+		if (player == null || player.isValid() == false)
+			return false;
+		return true;
 	}
 
 	public boolean start() {
 		if (isValid())
-			this.running = true;
-		return isRunning();
+			this.gameOver = false;
+		return isGameOver();
 	}
 
-	public boolean isRunning() {
-		return running;
+	public Boolean isGameOver() {
+		return gameOver;
 	}
 
 }

@@ -5,10 +5,21 @@ import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
 
+import org.zigi.game.jgamebook.item.IBagItem;
+
 public class Bag implements Collection<IBagItem> {
 	public static int DEFAULT_CAPACITY = 8;
 	private int capacity = DEFAULT_CAPACITY;
 	private List<IBagItem> items = new ArrayList<IBagItem>();
+
+	@Override
+	public String toString() {
+		StringBuilder sb = new StringBuilder();
+		sb.append("Bag (" + items.size() + "/" + capacity + "):");
+		for (IBagItem item : items)
+			sb.append("\n\t" + item);
+		return sb.toString();
+	}
 
 	private Bag(int capacity) {
 		this.capacity = capacity;

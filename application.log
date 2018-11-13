@@ -1,0 +1,188 @@
+2018-11-13 10:29:06 INFO  App:13 - --- Začátek vytváření hráče ---
+2018-11-13 10:29:06 INFO  App:15 - Hráč: Zigi vytvořen
+2018-11-13 10:29:06 INFO  App:16 - --- Konec vytváření hráče ---
+2018-11-13 10:29:06 INFO  App:18 - --- Začátek vytváření hry ---
+2018-11-13 10:29:06 INFO  App:20 - Hra vytvořena
+2018-11-13 10:29:06 INFO  App:21 - --- Konec vytváření hry ---
+2018-11-13 11:23:17 INFO  App:14 - --- Začátek vytváření hráče ---
+2018-11-13 11:23:18 INFO  App:16 - Hráč: Zigi vytvořen
+2018-11-13 11:23:18 INFO  App:17 - --- Konec vytváření hráče ---
+2018-11-13 11:23:18 INFO  App:20 - --- Začátek vytváření hry ---
+2018-11-13 11:23:18 ERROR App:25 - Hráč nebyl kompletně nastaven
+2018-11-13 12:06:47 INFO  App:14 - --- Začátek vytváření hráče ---
+2018-11-13 12:06:47 INFO  App:24 - Hráč: Zigi vytvořen
+2018-11-13 12:06:47 INFO  App:25 - --- Konec vytváření hráče ---
+2018-11-13 12:06:47 INFO  App:28 - --- Začátek vytváření hry ---
+2018-11-13 12:06:47 ERROR App:33 - Hráč nebyl kompletně nastaven
+2018-11-13 12:07:20 INFO  App:14 - --- Začátek vytváření hráče ---
+2018-11-13 12:07:20 ERROR App:22 - Schopnost healing již ovládáš!
+2018-11-13 12:07:20 INFO  App:25 - Hráč: Zigi vytvořen
+2018-11-13 12:07:20 INFO  App:26 - --- Konec vytváření hráče ---
+2018-11-13 12:07:20 INFO  App:29 - --- Začátek vytváření hry ---
+2018-11-13 12:07:20 ERROR App:34 - Hráč nebyl kompletně nastaven
+2018-11-13 12:07:56 INFO  App:14 - --- Začátek vytváření hráče ---
+2018-11-13 12:07:56 ERROR App:24 - Pro další schopnost nemáš dostatečnou úroveň!
+2018-11-13 12:07:56 INFO  App:29 - Hráč: Zigi vytvořen
+2018-11-13 12:07:56 INFO  App:30 - --- Konec vytváření hráče ---
+2018-11-13 12:07:56 INFO  App:33 - --- Začátek vytváření hry ---
+2018-11-13 12:07:56 INFO  App:35 - Hra vytvořena
+2018-11-13 12:07:56 INFO  App:36 - --- Konec vytváření hry ---
+2018-11-13 12:08:03 INFO  App:14 - --- Začátek vytváření hráče ---
+2018-11-13 12:08:03 INFO  App:28 - Hráč: Zigi vytvořen
+2018-11-13 12:08:03 INFO  App:29 - --- Konec vytváření hráče ---
+2018-11-13 12:08:03 INFO  App:32 - --- Začátek vytváření hry ---
+2018-11-13 12:08:03 INFO  App:34 - Hra vytvořena
+2018-11-13 12:08:03 INFO  App:35 - --- Konec vytváření hry ---
+2018-11-13 12:09:55 INFO  App:14 - --- Začátek vytváření hráče ---
+2018-11-13 12:09:55 INFO  App:28 - Player: Zigi(5)
+	Fight mastery: 11/11
+	Condition: 28/28
+	Skills:
+		Skill: intangible-shutter
+		Skill: hunting
+		Skill: animal-affinity
+		Skill: healing
+		Skill: masking
+	Left hand weapon:
+		null
+	Right hand weapon:
+		null
+	Bag (0/8):
+	Měšec: 9/50
+2018-11-13 12:09:55 INFO  App:29 - --- Konec vytváření hráče ---
+2018-11-13 12:09:55 INFO  App:32 - --- Začátek vytváření hry ---
+2018-11-13 12:09:55 INFO  App:34 - Hra vytvořena
+2018-11-13 12:09:55 INFO  App:35 - org.zigi.game.jgamebook.Game@6f539caf
+2018-11-13 12:09:55 INFO  App:36 - --- Konec vytváření hry ---
+2018-11-13 12:13:05 INFO  App:14 - --- Začátek vytváření hráče ---
+2018-11-13 12:13:05 INFO  App:28 - Player: Zigi(5)
+	Fight mastery: 10/10
+	Condition: 26/26
+	Skills:
+		Skill: weapon-mastery
+		Skill: hunting
+		Skill: animal-affinity
+		Skill: healing
+		Skill: masking
+	Left hand weapon:
+		null
+	Right hand weapon:
+		null
+	Bag (0/8):
+	Měšec: 7/50
+2018-11-13 12:13:05 INFO  App:29 - --- Konec vytváření hráče ---
+2018-11-13 12:13:05 INFO  App:32 - --- Začátek vytváření hry ---
+2018-11-13 12:13:05 INFO  App:34 - Hra vytvořena
+2018-11-13 12:13:05 INFO  App:35 - org.zigi.game.jgamebook.Game@6f539caf
+2018-11-13 12:13:05 INFO  App:36 - --- Konec vytváření hry ---
+2018-11-13 12:14:04 INFO  App:14 - --- Začátek vytváření hráče ---
+2018-11-13 12:14:04 INFO  App:28 - Player: Zigi(5)
+	Fight mastery: 10/10
+	Condition: 26/26
+	Skills:
+		Skill: weapon-mastery
+		Skill: hunting
+		Skill: animal-affinity
+		Skill: healing
+		Skill: masking
+	Left hand weapon:
+		null
+	Right hand weapon:
+		null
+	Bag (0/8):
+	Měšec: 4/50
+2018-11-13 12:14:04 INFO  App:29 - --- Konec vytváření hráče ---
+2018-11-13 12:14:04 INFO  App:32 - --- Začátek vytváření hry ---
+2018-11-13 12:14:04 INFO  App:34 - Hra vytvořena
+2018-11-13 12:14:04 INFO  App:35 - org.zigi.game.jgamebook.Game@6f539caf
+2018-11-13 12:14:04 INFO  App:36 - --- Konec vytváření hry ---
+2018-11-13 12:43:02 INFO  App:14 - --- Začátek vytváření hráče ---
+2018-11-13 12:43:02 INFO  App:28 - Player: Zigi(5)
+	Fight mastery: 13/13
+	Condition: 26/26
+	Skills:
+		Skill: null(long-sword-type)
+		Skill: hunting
+		Skill: animal-affinity
+		Skill: healing
+		Skill: masking
+	Left hand weapon:
+		null
+	Right hand weapon:
+		null
+	Bag (0/8):
+	Měšec: 1/50
+2018-11-13 12:43:02 INFO  App:29 - --- Konec vytváření hráče ---
+2018-11-13 12:43:02 INFO  App:32 - --- Začátek vytváření hry ---
+2018-11-13 12:43:02 INFO  App:34 - Hra vytvořena
+2018-11-13 12:43:02 INFO  App:35 - org.zigi.game.jgamebook.Game@6f539caf
+2018-11-13 12:43:02 INFO  App:36 - --- Konec vytváření hry ---
+2018-11-13 13:11:52 INFO  App:21 - --- Začátek vytváření hráče ---
+2018-11-13 13:11:52 INFO  App:35 - Player: Zigi(5)
+	Fight mastery: 17/17
+	Condition: 25/25
+	Skills:
+		Skill: weapon-mastery(hammer-type)
+		Skill: animal-affinity
+		Skill: healing
+		Skill: masking
+		Skill: tracking
+	Left hand weapon:
+		null
+	Right hand weapon:
+		null
+	Bag (0/8):
+	Měšec: 5/50
+2018-11-13 13:11:52 INFO  App:36 - --- Konec vytváření hráče ---
+2018-11-13 13:11:52 INFO  App:39 - --- Začátek vytváření hry ---
+2018-11-13 13:11:52 INFO  App:41 - Hra vytvořena
+2018-11-13 13:11:52 INFO  App:42 - org.zigi.game.jgamebook.Game@6f539caf
+2018-11-13 13:11:52 INFO  App:43 - --- Konec vytváření hry ---
+2018-11-13 13:32:00 INFO  App:25 - --- Začátek vytváření příběhu ---
+2018-11-13 13:32:00 INFO  App:27 - 
+2018-11-13 13:32:00 INFO  App:28 - --- Konec vytváření příběhu ---
+2018-11-13 13:32:00 INFO  App:30 - --- Začátek vytváření hráče ---
+2018-11-13 13:32:00 INFO  App:38 - Player: Zigi(5)
+	Fight mastery: 11/11
+	Condition: 23/23
+	Skills:
+		Skill: weapon-mastery(long-sword-type)
+		Skill: animal-affinity
+		Skill: healing
+		Skill: masking
+		Skill: tracking
+	Left hand weapon:
+		null
+	Right hand weapon:
+		null
+	Bag (0/8):
+	Purse (4/50)
+2018-11-13 13:32:00 INFO  App:39 - --- Konec vytváření hráče ---
+2018-11-13 13:32:00 INFO  App:42 - --- Začátek vytváření hry ---
+2018-11-13 13:32:00 INFO  App:44 - Hra vytvořena
+2018-11-13 13:32:00 INFO  App:45 - org.zigi.game.jgamebook.Game@50040f0c
+2018-11-13 13:32:00 INFO  App:46 - --- Konec vytváření hry ---
+2018-11-13 13:33:44 INFO  App:25 - --- Začátek vytváření příběhu ---
+2018-11-13 13:33:44 INFO  App:27 - 
+2018-11-13 13:33:44 INFO  App:28 - --- Konec vytváření příběhu ---
+2018-11-13 13:33:44 INFO  App:30 - --- Začátek vytváření hráče ---
+2018-11-13 13:33:45 INFO  App:38 - Player: Zigi(5)
+	Fight mastery: 16/16
+	Condition: 26/26
+	Skills:
+		Skill: weapon-mastery(stick-type)
+		Skill: animal-affinity
+		Skill: healing
+		Skill: masking
+		Skill: tracking
+	Left hand weapon:
+		null
+	Right hand weapon:
+		null
+	Bag (0/8):
+	Purse (6/50)
+2018-11-13 13:33:45 INFO  App:39 - --- Konec vytváření hráče ---
+2018-11-13 13:33:45 INFO  App:42 - --- Začátek vytváření hry ---
+2018-11-13 13:33:45 INFO  App:44 - Hra vytvořena
+2018-11-13 13:33:45 INFO  App:45 - org.zigi.game.jgamebook.Game@50040f0c
+2018-11-13 13:33:45 INFO  App:46 - --- Konec vytváření hry ---
