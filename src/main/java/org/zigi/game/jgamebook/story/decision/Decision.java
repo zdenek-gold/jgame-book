@@ -5,7 +5,7 @@ import java.util.List;
 
 import org.zigi.game.jgamebook.Player;
 import org.zigi.game.jgamebook.story.Chapter;
-import org.zigi.game.jgamebook.story.Update;
+import org.zigi.game.jgamebook.story.update.Update;
 
 public abstract class Decision implements IDecision {
 	protected Player player;

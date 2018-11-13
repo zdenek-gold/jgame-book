@@ -1,4 +1,4 @@
-package org.zigi.game.jgamebook.story;
+package org.zigi.game.jgamebook.story.update;
 
 import org.zigi.game.jgamebook.Player;
 

@@ -21,15 +21,22 @@ public class Purse {
 		return amount;
 	}
 
-	public void add(int count) {
-		amount = (amount + count) % capacity;
+	public void increment(int count) {
+		if (count < 0)
+			decrement(-count);
+		else
+			amount = (amount + count) % capacity;
 	}
 
-	public void remove(int count) {
-		if (count > amount)
-			amount = 0;
-		else
-			amount -= count;
+	public void decrement(int count) {
+		if (count < 0)
+			increment(-count);
+		else {
+			if (count > amount)
+				amount = 0;
+			else
+				amount -= count;
+		}
 	}
 
 	@Override
