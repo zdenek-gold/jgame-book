@@ -1,7 +1,5 @@
 package org.zigi.game.jgamebook;
 
-import java.io.File;
-
 import org.apache.log4j.Logger;
 import org.zigi.game.jgamebook.exception.InvalidPlayerException;
 import org.zigi.game.jgamebook.exception.SkillAlreadyExistException;
@@ -23,7 +21,7 @@ public class App {
 	public static void main(String[] args) {
 
 		LOG.info("--- Začátek vytváření příběhu ---");
-		Story s = Story.getInstance(new File("story.json"));
+		Story s = Story.getInstance();
 		LOG.info(s);
 		LOG.info("--- Konec vytváření příběhu ---");
 

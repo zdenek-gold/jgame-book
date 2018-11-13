@@ -1,12 +1,19 @@
 package org.zigi.game.jgamebook.story;
 
-import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.log4j.Logger;
+import org.zigi.game.jgamebook.model.StoryModel;
+import org.zigi.game.jgamebook.util.Util;
+
 public class Story {
+	private static final Logger LOG = Logger.getLogger(Story.class);
+
 	private Map<Integer, Chapter> chapters = new LinkedHashMap<Integer, Chapter>();
 	private Chapter chapter;
 
@@ -14,7 +21,18 @@ public class Story {
 
 	}
 
-	public static Story getInstance(File filename) {
+	public static Story getInstance() {
+		return new Story();
+	}
+
+	public static Story getInstance(String filename) {
+		try {
+			StoryModel model = (StoryModel) Util.fromJson(new FileReader(filename), StoryModel.class);
+			Story story = new Story();
+			return story;
+		} catch (FileNotFoundException e) {
+			LOG.error("Chyba při převodu z JSON na objekt", e);
+		}
 		return null;
 	}
 

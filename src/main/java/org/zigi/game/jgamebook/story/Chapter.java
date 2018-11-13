@@ -6,12 +6,14 @@ import java.util.List;
 import org.zigi.game.jgamebook.story.decision.IDecision;
 
 public class Chapter {
+	private Story story;
 	private int number;
 	private String text;
 	private List<IDecision> decisions = new ArrayList<IDecision>();
 
-	public Chapter(int number) {
+	public Chapter(int number, Story story) {
 		this.number = number;
+		this.story = story;
 	}
 
 	public int getNumber() {
